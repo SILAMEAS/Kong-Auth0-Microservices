@@ -1,0 +1,19 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: restaurant-service
+
+custom:
+  auth0:
+    audience: ${AUTH0_AUDIENCE}
+    frontend-redirect-url: ${FRONTEND_REDIRECT_URL}
+    issuer-uri: ${AUTH0_ISSUER_URI}
+    logout-redirect-url: ${AUTH0_LOGOUT_REDIRECT_URL}
+
+logging:
+  level:
+    org:
+      springframework:
+        security: trace

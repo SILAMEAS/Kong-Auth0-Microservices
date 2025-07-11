@@ -41,7 +41,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-oauth2-client</artifactId>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.auth0/auth0 -->
         <dependency>
             <groupId>com.silacode</groupId>
             <artifactId>common-utils</artifactId>
