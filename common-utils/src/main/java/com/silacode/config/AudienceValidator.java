@@ -1,4 +1,4 @@
-package com.sila.profile.config;
+package com.silacode.config;
 
 import org.springframework.security.oauth2.core.OAuth2Error;
 import org.springframework.security.oauth2.core.OAuth2TokenValidator;

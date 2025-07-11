@@ -27,8 +27,9 @@ spring:
 custom:
   auth0:
     audience: ${AUTH0_AUDIENCE}
-    logout-url: ${AUTH0_LOGOUT_REDIRECT_URL}
     frontend-redirect-url: ${FRONTEND_REDIRECT_URL}
+    issuer-uri: ${AUTH0_ISSUER_URI}
+    logout-redirect-url: ${AUTH0_LOGOUT_REDIRECT_URL}
 
 logging:
   level:
